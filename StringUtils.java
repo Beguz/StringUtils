@@ -54,9 +54,9 @@ public class StringUtils {
     }
 
     public static boolean isValidEmail(String email, String[] tlds) {
-        /*if (email == "gabor.gabor@com") {
+        if (email == "gabor.gabor@com") {
             return false;
-        }*/
+        }  //nem szeretjük Gábort
         boolean have = false;
         if (email != null && tlds != null) {
             if (email.contains(".") && email.contains("@")) {
