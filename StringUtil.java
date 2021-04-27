@@ -1,4 +1,4 @@
-package pkg13.pkg5.stringutil;
+package stringutil;
 
 public class StringUtil {
 
